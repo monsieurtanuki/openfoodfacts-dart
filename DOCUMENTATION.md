@@ -285,7 +285,7 @@ Parameters : String barcode, String lang
 
 ProductResult result = await OpenFoodFacts.getProduct("yourbarcode", User.LANGUAGE_FR);
 ```
-See the [example](#example-1-:-get-a-product-from-a-barcode)
+See the [example](#example-1-get-a-product-from-a-barcode)
 
 #### Get a [product](#product) from a barcode (RAW)
 This function retreives the data of the product but returns it "as is". The language parameter is used the target the selected country's API. The result is a [ProductResult](#productresult).
@@ -295,7 +295,7 @@ Parameters : String barcode, String lang
 
 ProductResult result = await OpenFoodFacts.getProductRaw("yourbarcode", User.LANGUAGE_FR);
 ```
-See the [example](#example-2-:-get-a-RAW-product-from-a-barcode)
+See the [example](#example-2-get-a-RAW-product-from-a-barcode)
 
 #### Search products
 This function allows you to get a list of products according to a list of [parameters](#parameter). The result is a [SearchResult](#searchresult).
@@ -306,7 +306,7 @@ Optional : String lang
 
 SearchResult result = await OpenFoodFacts.searchProducts(parameterList, lang: User.LANGUAGE_FR);
 ```
-See the [example](#example-3-:-search-for-products)
+See the [example](#example-3-search-for-products)
 
 #### Edit or Add a product to Open Food Facts
 This functions sends a [product](#product) to the API in order to be written into the database. The result is a [Status](#status).
@@ -316,7 +316,7 @@ Parameters : User user, Product parameterList
 
 Status result = await OpenFoodFacts.saveProduct(user, product);
 ```
-See the [example](#example-4-:-send-a-product-to-open-food-facts)
+See the [example](#example-4-send-a-product-to-open-food-facts)
 
 #### Send a picture for an existing product to Open Food Facts
 This function allows you to send a [picture](#productimage) linked to an existing [product](#product) in the database.
@@ -326,7 +326,7 @@ Parameters : User user, ProductImage image
 
 Status result = await OpenFoodFacts.addProductImage(user, image);
 ```
-See the [example](#example-5-:-upload-an-image-for-a-given-product)
+See the [example](#example-5-upload-an-image-for-a-given-product)
 
 ### Examples
 
