@@ -16,7 +16,7 @@ This plugin also allows you to edit a product or upload a new one to Open Food F
 
 ## How do I use it ?
 
-Jump to [**Object structures**](#object-structures), [**Functions**](#functions) or [**Examples**](#examples).
+Jump to [**Objects structures**](#objects-structures), [**Functions**](#functions) or [**Examples**](#examples).
 
 ### Objects Structures
 
