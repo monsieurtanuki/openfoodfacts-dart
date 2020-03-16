@@ -319,10 +319,10 @@ Status result = await OpenFoodFacts.saveProduct(user, product);
 See the [example](#example-4--send-a-product-to-open-food-facts)
 
 #### Send a picture for an existing product to Open Food Facts
-This function allows you to send a [picture](#productimage) linked to an existing [product](#product) in the database.
+This function allows you to send a [picture](#sendimage) linked to an existing [product](#product) in the database.
 
 ```
-Parameters : User user, ProductImage image
+Parameters : User user, SendImage image
 
 Status result = await OpenFoodFacts.addProductImage(user, image);
 ```
